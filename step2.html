@@ -3,14 +3,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Step 2 start -->
-    <div>
-      Select your plan You have the option of monthly or yearly billing. Arcade
-      $9/mo Advanced $12/mo Pro $15/mo Monthly Yearly Go Back Next Step
+    <div class="card-container">
+      <div class="main-container">
+        <div class="image-container">
+          <img
+            src="./assets/images/bg-sidebar-desktop.svg"
+            alt="sideBar"
+            class="sideBar"
+          />
+          <div class="text-overlay">
+            <div class="step-container">
+              <div class="number-container">1</div>
+              <div>
+                <h3>Step 1</h3>
+                <h4>Your info</h4>
+              </div>
+            </div>
+            <div class="step-container">
+              <div class="number-container">2</div>
+              <div>
+                <h3>Step 2</h3>
+                <h4>Select your plan</h4>
+              </div>
+            </div>
+            <div class="step-container">
+              <div class="number-container">3</div>
+              <div>
+                <h3>Step 3</h3>
+                <h4>Add-ons</h4>
+              </div>
+            </div>
+            <div class="step-container">
+              <div class="number-container">4</div>
+              <div>
+                <h3>Step 4</h3>
+                <h4>Summary</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="personal-info-container">
+          <div class="personal-info-text">
+            <h1>Select your plan</h1>
+            <h5>You have the option of monthly or yearly billing</h5>
+            <div id="option-container">
+              <div class="option">
+                <img src="./assets/images/icon-arcade.svg" />
+                <h2>Arcade</h2>
+              </div>
+              <div class="option">
+                <img src="./assets/images/icon-advanced.svg" />
+                <h2>Advanced</h2>
+              </div>
+              <div class="option">
+                <img src="./assets/images/icon-pro.svg" />
+                <h2>Pro</h2>
+              </div>
+            </div>
+            <div>
+              <button id="back-button-step2">Back</button>
+              <button id="personal-info-button">Next Step</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
+    <script src="main.js"></script>
     <!-- Step 2 end -->
   </body>
 </html>

@@ -62,6 +62,7 @@ button {
 #personal-info-button {
   margin-top: 70px;
   margin-left: 370px;
+  position: absolute;
 }
 
 .number-container {
@@ -85,4 +86,31 @@ h3 {
 h4 {
   margin-top: 5px;
   margin-bottom: 30px;
+}
+
+#option-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option {
+  height: 180px;
+  width: 150px;
+  border: 2px solid #000;
+}
+
+.advanced-option {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #000;
+}
+
+.pro-option {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #000;
+}
+
+#back-button-step2 {
+  margin-top: 70px;
 }
